@@ -175,7 +175,7 @@ document.getElementById('resetBtn').addEventListener('click',()=>{
 </body></html>""" % (repr(answer_key)))
 
 html_content = "\n".join(html_parts)
-with open("quiz_250_preloaded.html", "w", encoding="utf-8") as f:
+with open("index.html", "w", encoding="utf-8") as f:
     f.write(html_content)
 
 print("Đã tạo file quiz_250_preloaded.html")
